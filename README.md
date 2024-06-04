@@ -42,7 +42,7 @@ Voce pode configurar livremente o nome do topico, o endereco do seu local host e
 
 ## Documentação da API
 
-#### Retorna todos os itens
+#### Envia mensagem para o servico do kafka
 
 ```http
   POST /publish
