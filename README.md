@@ -53,5 +53,5 @@ Voce pode configurar livremente o nome do topico, o endereco do seu local host e
 | `key` | `string` | Flag de identificacao|
 | `Value` | `string` | Mensagem para enviar para o topico |
 
-Fazendo isso, o servico do kafka recebe sua mensagem e de acordo com a mensagem recebida, pode executar alguma regra de negocio. Para isso use as classes KafkaTemplate e KafkaConsumer
+Fazendo isso, o servico do kafka recebe sua mensagem e de acordo com a mensagem recebida, pode executar alguma regra de negocio. Para isso use as classes KafkaTemplate e KafkaConsumer para implementar o que desejar e configurar as responsabilidades dos topicos.
 
